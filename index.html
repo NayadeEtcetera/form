@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulario</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,400;0,700;1,400;1,700&family=Maven+Pro:wght@400;700&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="row one-half column">
+      <form name="contact" method="POST" data-netlify="true">
+        <div class="twelve columns">
+          <label for="TextInput">Nombre</label
+          ><input
+            class="u-full-width"
+            type="text"
+            placeholder="Tu nombre"
+            id="TextInput"
+            required
+          />
+        </div>
+        <div class="twelve columns">
+          <label for="EmailInput">E-mail</label>
+          <input
+            class="u-full-width"
+            type="email"
+            placeholder="nombre@correo.com"
+            id="EmailInput"
+            required
+          />
+        </div>
+        <div class="twelve columns">
+          <label for="RecipientInput"
+          >Selecciona el motivo de tu consulta</label
+          >
+          <select class="u-full-width" id="RecipientInput">
+            <option value="Option 1">Asesoría lingüística</option>
+            <option value="Option 2">Corrección de textos</option>
+            <option value="Option 3">Servicios de redacción</option>
+            <option value="Option 4">Otras consultas</option>
+          </select>
+        </div>
+        <div class="twelve columns">
+          <label for="Message">Mensaje</label>
+          <textarea
+            class="u-full-width"
+            placeholder="Escribe tu consulta..."
+            id="Message"
+          ></textarea>
+        </div>
+        <label>
+          <input type="checkbox" required />
+          <span class="label-body"
+          >Acepta nuestra <a href="#">Política de privacidad</a></span
+          >
+        </label>
+        <input class="button" type="submit" value="Enviar" />
+      </form>
+    </div>
+  </body>
+</html>

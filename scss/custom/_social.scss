@@ -1,0 +1,58 @@
+.social {
+  position: fixed;
+  left: 0;
+  top: 250px;
+  z-index: 1000;
+  
+  #facebook a {
+    background: #3b5998;
+    color: #fbf2f2;
+    padding: 10px 12px;
+    text-decoration: none;
+    width: 35px;
+    transition: all 500ms ease;
+  }
+  #facebook a:hover {
+    padding: 10px 40px;
+    background: $dark;
+  }
+
+  #twitter a {
+    background: #55acee;
+    color: #fbf2f2;
+    padding: 10px 10px;
+    text-decoration: none;
+    width: 35px;
+    transition: all 500ms ease;
+  }
+  #twitter a:hover {
+    padding: 10px 40px;
+    background: $dark;
+  }
+
+  #telegram a {
+    background: #0088cc;
+    color: #fbf2f2;
+    padding: 10px 10px;
+    text-decoration: none;
+    width: 35px;
+    transition: all 500ms ease;
+  }
+  #telegram a:hover {
+    padding: 10px 40px;
+    background: $dark;
+  }
+
+  #correo a {
+    background: #666666;
+    color: #fbf2f2;
+    padding: 10px 10px;
+    text-decoration: none;
+    width: 35px;
+    transition: all 500ms ease;
+  }
+  #correo a:hover {
+    padding: 10px 40px;
+    background: $dark;
+  }
+}

@@ -1,0 +1,44 @@
+// Base Styles
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.9rem; // currently ems cause chrome bug misinterpreting rems on body element
+  line-height: 1.6;
+  font-weight: 500;
+  color: $font-color;
+  font-family: $font-p;
+}
+
+// Links
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+a {
+  color: $one;
+  &:hover {
+    color: $two;
+  }
+}
+
+// Misc
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+  border-top: 1px $tree;
+}
+
+strong {
+  color: $two;
+}
