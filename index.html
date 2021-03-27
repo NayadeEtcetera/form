@@ -12,10 +12,9 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="row one-half column">
+    <div class="container">
       <p>Para más información, rellena el formulario o visita nuestras redes sociales</p>
       <form name="contact" method="POST" data-netlify="true">
-        <div class="twelve columns">
           <label for="TextInput">Nombre</label
           ><input
             class="u-full-width"
@@ -24,8 +23,6 @@
             id="TextInput"
             required
           />
-        </div>
-        <div class="twelve columns">
           <label for="EmailInput">E-mail</label>
           <input
             class="u-full-width"
@@ -45,15 +42,12 @@
             <option value="Option 3">Servicios de redacción</option>
             <option value="Option 4">Otras consultas</option>
           </select>
-        </div>
-        <div class="twelve columns">
           <label for="Message">Mensaje</label>
           <textarea
             class="u-full-width"
             placeholder="Escribe tu consulta..."
             id="Message"
           ></textarea>
-        </div>
         <label>
           <input type="checkbox" required />
           <span class="label-body"
